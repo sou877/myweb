@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./peakpx\ \(5\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.list {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.list li {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 2rem;
+    color: rgb(15, 69, 21);
+}
+
+.list ul li a {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(15, 69, 21);
+    font-style: bold;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    display: flex;
+    font-size: 3rem;
+    color: #f8f8f9;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.content h1:hover {
+    -webkit-text-stroke: 0.5px #ffffff;
+    color: transparent;
+}

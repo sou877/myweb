@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    margin-top: 0;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    background: #f9f9f9;
+}
+
+
+
+.tittle {
+    display: flex;
+    position: relative;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #38a7ff;
+    display: inherit;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu' sans-serif;
+}
+
+.player {
+    display: flex;
+    position: relative;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #38a7ff;
+    display: inherit;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu' sans-serif;
+}
+
+.player audio{
+    font-family: 'Ubuntu' sans-serif;
+    position: relative;
+    width: 300px;
+    min-height: 50px;
+    background: #fbfbfb;
+    border: 2px solid #fff;
+    border-radius: 80px;
+    box-shadow: -10px -10px 15px #fff, 
+                10px 10px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 15px #fff,
+                inset 5px 5px 15px rgba(0,0,0,0.1);
+                font-family: 'Courier New', Courier, monospace;
+}
+
+.heading {
+    padding-left: 2rem;
+    color: rgb(72, 65, 109);
+    font-family: 'Ubuntu' sans-serif;
+}
+
+.heading p {
+    text-indent: 2rem;
+}
+
+.heading h3 {
+    text-align: right;
+    padding-right: 3rem;
+}
+
+.list {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.list li {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1rem;
+    color: rgb(15, 69, 21);
+}
+
+.list ul li a {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(15, 69, 21);
+    font-style: bold;
+}
