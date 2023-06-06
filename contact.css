@@ -24,7 +24,6 @@
     text-decoration: none;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    font-size: 2rem;
     color: rgb(15, 69, 21);
 }
 
@@ -32,7 +31,7 @@
     list-style: none;
     display: inline-block;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1rem;
     color: rgb(15, 69, 21);
     font-style: bold;
 }
