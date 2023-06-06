@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
 * {
-    margin-top: 0;
+    margin-top: 3px;
 }
 
 body {
@@ -81,8 +81,8 @@ body {
     list-style: none;
     display: inline-block;
     text-decoration: none;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     font-size: 1rem;
     color: rgb(15, 69, 21);
 }
