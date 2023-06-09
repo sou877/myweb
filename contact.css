@@ -22,9 +22,8 @@
     list-style: none;
     display: inline-block;
     text-decoration: none;
-    margin-left: 0.4rem;
-    margin-right: 0.4rem;
-    font-size: 0.5rem;
+    margin: 0.4em;
+    font-size: 2rem;
     color: rgb(15, 69, 21);
 }
 
